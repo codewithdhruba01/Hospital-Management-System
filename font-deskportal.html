@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Desk Portal</title>
+    <link rel="stylesheet" href="font-deskportal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="front-desk-portal.jpg" alt="Front Desk Icon" class="icon">
+            </div>
+            <div class="user-info">
+                <h2>FRONT DESK PORTAL</h2>
+                <!-- <p>Welcome, <span id="username">Mr. [username]</span></p> -->
+                 <a href="fontpage.html">
+                    <button class="logout-btn">Logout</button>
+                 </a>
+                
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="grid-container">
+                <a href="add-patient.php">
+                    <div class="grid-item" onclick="location.href='#';">
+                        <img src="patient-manger.jpg" alt="Patient Manager">
+                        <h3>Patient Manager</h3>
+                    </div>
+                </a>
+                <a href="add-appointment.php">
+                    <div class="grid-item" onclick="location.href='#';">
+                        <img src="appointments.jpg" alt="Appointments">
+                        <h3>Appointments</h3>
+                    </div>
+
+                </a>
+                
+                <a href="view-doctor.php"><div class="grid-item" onclick="location.href='#';">
+                    <img src="doctor-icon.jpg" alt="Doctor Finder">
+                    <h3>Doctor Finder</h3>
+                </div></a>
+                <a href="delete-doctor.php">
+                    <div class="grid-item" onclick="location.href='#';">
+                        <img src="delete-doctor.jpg" alt="My Info">
+                        <h3>Delete Doctor</h3>
+                    </div>
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

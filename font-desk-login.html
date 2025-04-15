@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="font-desk-login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <button type="submit">Login</button>
+            <p id="error-message" style="color:red;"></p>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Hardcoded username and password for this example
+            const correctUsername = "front";
+            const correctPassword = "2022";
+
+            if (username === correctUsername && password === correctPassword) {
+                window.location.href = "font-deskportal.html"; // Redirect to a new page
+            } else {
+                document.getElementById('error-message').textContent = "Incorrect username or password!";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Portal</title>
+    <link rel="stylesheet" href="doctor-portal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="stethoscope_icon.jpg" alt="Doctor Icon" class="icon">
+            </div>
+            <div class="user-info">
+                <h2>DOCTOR's PORTAL</h2>
+                <!-- <p>Welcome, <span id="username">Dr. Shreya</span></p> -->
+                 <a href="fontpage.html">
+                    <button class="logout-btn">Logout</button>
+                 </a>
+                
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="button-container">
+                <div class="button-item" onclick="location.href='appointment-view.php';">
+                    <img src="appointments.jpg" alt="Appointments">
+                    <h3>MY APPOINTMENTS</h3>
+                </div>
+                <div class="button-item" onclick="location.href='update-doctor.php';">
+                    <img src="update-doctor.jpg" alt="My Information">
+                    <h3>MY INFORMATION</h3>
+                </div>
+                <div class="button-item" onclick="location.href='patient-view.php';">
+                    <img src="doctor-pa.jpg" alt="View All Patients">
+                    <h3>VIEW ALL PATIENTS</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
