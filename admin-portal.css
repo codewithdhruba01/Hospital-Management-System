@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 30%;
+    background-color: #e6f3f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.admin-section {
+    text-align: center;
+}
+
+.admin-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #ddd;
+}
+
+/* Main Content Styling */
+.main-content {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #33c1c9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #2da3a9;
+}
+
+.icon {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.asd{
+    text-decoration: none;
+}

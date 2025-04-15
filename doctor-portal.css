@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #e8f1f2;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.user-info h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.user-info p {
+    font-size: 18px;
+    color: #777;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-content {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.button-item {
+    background-color: #00cfc1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.button-item:hover {
+    background-color: #00b8a1;
+}
+
+.button-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.button-item h3 {
+    font-size: 18px;
+    color: white;
+}
