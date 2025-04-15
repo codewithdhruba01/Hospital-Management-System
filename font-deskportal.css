@@ -17,18 +17,23 @@ html, body {
 }
 
 .sidebar {
-    width: 25%;
-    background-color: #e8f1f2;
+    width: 30%;
+    background-color: #e6f3f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-    text-align: center;
 }
 
-.logo .icon {
-    width: 80px;
-    height: 80px;
+.logo img {
+    width: 300px;
+    height: 300px;
     margin-bottom: 20px;
 }
-
+.user-info{
+    text-align: center;
+}
 .user-info h2 {
     margin-bottom: 10px;
     font-size: 24px;
@@ -41,13 +46,25 @@ html, body {
 }
 
 .logout-btn {
-    padding: 10px 20px;
-    background-color: #4285f4;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
     color: #fff;
+    background: #000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0px 0px 0 #c00606;
+}
+.logout-btn:hover {
+    margin-left: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 8px 10px 0 #c00606;
 }
 
 .main-content {
@@ -88,9 +105,15 @@ html, body {
     width: 120px;
     height: 120px;
     margin-bottom: 10px;
+    border-radius: 50%;
 }
 
 .grid-item h3 {
-    font-size: 18px;
-    color: white;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.font-cont{
+    text-decoration: none;
 }

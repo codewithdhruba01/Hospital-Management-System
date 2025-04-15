@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital Login</title>
+    <link rel="shortcut icon" href="fav-icon/fav:logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="fontpage.css">
 </head>
 <body>
+    <!-- Dark mode - light Mode Button -->
+<div class="mode-toggle">
+    <input type="checkbox" id="themeToggle" />
+    <label for="themeToggle" class="toggle-label">
+      <span class="icon moon">🌙</span>
+      <span class="icon sun">☀️</span>
+      <div class="toggle-ball"></div>
+    </label>
+  </div>
+  <!-- main - contain -->
     <div class="container">
         <div class="left-section">
             <div class="logo">
-                <img src="heart.jpg" alt="Heart Logo" class="logo-image">
-                <h1>PATIENTKILLER</h1>
-                <h2>HOSPITAL & HOSTEX</h2>
+                <img src="Accets/Medical_Health_Logo.png" alt="Heart Logo" class="logo-image">
+                <h1>HEALTH <span>CARE</span></h1>
+                <h2>HOSPITAL & MADICAL</h2>
             </div>
         </div>
         <div class="right-section">
-
             <a href="admin-login.html">
-                <button class="login-btn">Admin login</button> 
+                <button class="login-btn">Admin login <span>&#10230;</span></button> 
             </a>
             <a href="font-desk-login.html">
-                <button class="login-btn">Front-Desk login</button>
+                <button class="login-btn">Front Desk login <span>&#10230;</span></button>
             </a>
-
             <a href="doctor-login.html">
-                <button class="login-btn">Doctor login</button>
-
+                <button class="login-btn">Doctor login <span>&#10230;</span></button>
             </a>
-            
-            
-            
         </div>
     </div>
+    <script src="fontpage.js"></script>
 </body>
 </html>

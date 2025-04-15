@@ -49,9 +49,10 @@
             text-decoration: none;
         }
 
-        .sidebar ul li a:hover {
-            background-color: ;
-        }
+        /* some bug */
+        /* .sidebar ul li a:hover {
+            background-color: ; 
+        } */
 
         /* Main content and header styling */
         .main-content {
@@ -62,7 +63,7 @@
         }
 
         .header {
-            background-color: ;
+            /* background-color: ; */
             padding: 15px;
             text-align: center;
             font-size: 24px;

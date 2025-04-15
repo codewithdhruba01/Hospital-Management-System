@@ -29,8 +29,8 @@ body {
     text-align: center;
 }
 
-.admin-icon {
-    width: 100px;
+.admin-section img {
+    width: 150px;
     margin-bottom: 20px;
 }
 
@@ -40,55 +40,71 @@ h2 {
 }
 
 .logout-btn {
-    padding: 10px 20px;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0px 0px 0 #c00606;
 }
 
 .logout-btn:hover {
-    background-color: #ddd;
+    margin-left: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 8px 10px 0 #c00606;
 }
 
-/* Main Content Styling */
+/* Main Content*/
 .main-content {
-    width: 70%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    text-decoration: none;
+}
+.grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    align-items: center;
-    justify-items: center;
-    padding: 40px;
-    background-color: #ffffff;
 }
 
 .card {
-    width: 200px;
+    background: #00cfc1;
+    padding: 20px;
     height: 200px;
-    background-color: #33c1c9;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
+    width: 300px;
     text-align: center;
-    transition: 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .card:hover {
     background-color: #2da3a9;
 }
 
-.icon {
-    width: 80px;
-    margin-bottom: 20px;
+.card img {
+    width: 120px;
+    margin-bottom: 10px;
+    border-radius: 50%;
 }
 
-p {
+.card p {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
+    color: #fff;
 }
 .asd{
     text-decoration: none;

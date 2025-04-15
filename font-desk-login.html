@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Font Desk Login</title>
+    <link rel="shortcut icon" href="fav-icon/favAdmin.jpg" type="image/x-icon">
     <link rel="stylesheet" href="font-desk-login.css">
 </head>
 <body>
@@ -22,6 +23,10 @@
     </div>
 
     <script>
+          const theme = localStorage.getItem('theme');
+        if (theme === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault();
             

@@ -112,6 +112,5 @@ $result = $conn->query($sql);
 
     </table>
 </div>
-
 </body>
 </html>

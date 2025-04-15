@@ -17,7 +17,7 @@ body {
 
 .left-section {
     flex: 1;
-    background-color: #f2f2f2;
+    background-color:#ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +29,12 @@ body {
 }
 
 .logo h1 {
-    color: red;
+    color: #0b8fac;
     font-size: 32px;
     margin-bottom: 5px;
+}
+.logo h1 span{
+    color: #7bc1b7;
 }
 
 .logo h2 {
@@ -41,14 +44,14 @@ body {
 }
 
 .logo-image {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
 }
 
 .right-section {
     flex: 1;
-    background-color: red;
+    background: #0b8fac;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,25 +59,165 @@ body {
 }
 
 .right-section h3 {
-    color: white;
+    color: #fff;
     font-size: 24px;
     margin-bottom: 30px;
 }
 
 .login-btn {
-    width: 300px;
+    width: 200px;
+    height: 60px;
     padding: 10px;
-    margin: 10px;
-    font-size: 16px;
-    color: #333;
-    background-color: white;
+    margin: 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0px 0px 0 #c00606;
 }
 
+.login-btn:hover{
+    margin-left: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 8px 10px 0 #c00606;
+}
 
-.login-btn:hover {
-    background-color: #ddd;
+.login-btn:hover span{
+    color: #c00606;
+}
+
+/* Toggle Switch Styling */
+
+.mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.toggle-label {
+    width: 60px;
+    height: 30px;
+    background-color: #0a0601;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    padding: 0 5px;
+    box-sizing: border-box;
+    transition: background 0.3s;
+}
+
+.icon {
+    font-size: 16px;
+    z-index: 2;
+}
+
+.toggle-ball {
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s;
+}
+
+#themeToggle {
+    display: none;
+}
+
+#themeToggle:checked + .toggle-label {
+    background-color: #343432;
+   
+}
+
+#themeToggle:checked + .toggle-label .toggle-ball {
+    left: 32px;
+}
+
+/* ========== Light/Dark Mode Classes ========== */
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+}
+
+body.dark-mode .left-section {
+    background-color: #2e2e2e;
+}
+
+body.dark-mode .right-section {
+    background-color: #121212;
+}
+
+body.dark-mode .login-btn {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+body.dark-mode .login-btn:hover {
+    box-shadow: 8px 10px 0 #7bc1b7;
+    transition: 0.5s ease-in-out;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-section, .right-section {
+        flex: none;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    .logo h2 {
+        font-size: 16px;
+    }
+
+    .login-btn {
+        width: 90%;
+        max-width: 300px;
+        font-size: 16px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .logo h2 {
+        font-size: 14px;
+    }
+
+    .login-btn {
+        font-size: 14px;
+        height: 45px;
+    }
 }

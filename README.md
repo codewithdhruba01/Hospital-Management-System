@@ -2,39 +2,47 @@
 
 A comprehensive web-based Hospital Management System built using PHP and MySQL. This project streamlines the daily operations of hospitals, including managing doctors, patients, and appointments.
 
-## 🛠️ Features
+## Features
 
-- 🔐 User Authentication (Admin & Doctor)
-- 👨‍⚕️ Doctor Management
-- 🧑‍🤝‍🧑 Patient Management
-- 📅 Appointment Scheduling
-- 📱 Responsive Web Design
+- User Authentication (Admin & Doctor)
+- Doctor Management
+- Patient Management
+- Appointment Scheduling
+- Responsive Web Design
+- Dark & Light Mode
 
-## 🚀 Technologies Used
+## Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL
+- **operating System:** Linux
 
 ##  Screenshots
 
+### Font Portal
+![Font Page](Screenshots/Fornt-Page.png)
+
+### Dark Mode
+![Dark mode](Screenshots/Dark-Mode-Font-Page.png)
+
+### Login Page
+![Login Page](Screenshots/Login-Page.png)
+
 ### Admin Portal
-![Admin Portal](admin-portal.jpg)
+![Admin Portal](Screenshots/Admin-Page.png)
 
 ### Doctor Portal
-![Doctor Portal](doctor-pa.jpg)
+![Doctor Portal](Screenshots/Doctor-Page.png)
 
-### Appointments
-![Appointments](appointments.jpg)
+<!-- ### Appointments
+![Appointments](appointments.jpg) -->
 
-### Delete Doctor
-![Delete Doctor](delete-doctor.jpg)
+<!-- ### Delete Doctor
+![Delete Doctor](delete-doctor.jpg) -->
 
-### Front Desk Portal
-![Front Desk](front-desk-portal.jpg)
-
-### Patient Manager
-![Patient Manager](patient-manger.jpg)
+### Front Dask Portal
+![Patient Manager](Screenshots/Font-Dask-Page.png)
 
 ## Installation
 
@@ -52,7 +60,7 @@ A comprehensive web-based Hospital Management System built using PHP and MySQL. 
    http://localhost/Hospital-Management-System/
    ```
 
-## 🔑 Login Credentials
+## Login Credentials
 
 - **Admin**
   - Username: `admin`
@@ -68,6 +76,6 @@ A comprehensive web-based Hospital Management System built using PHP and MySQL. 
 - [@AkashAdak-coder ](https://github.com/AkashAdak-coder)  
 - [@Reyaz556](https://github.com/Reyaz556)
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
