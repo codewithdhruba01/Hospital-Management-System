@@ -15,7 +15,6 @@
             </div>
             <div class="user-info">
                 <h2>FRONT DESK PORTAL</h2>
-                <!-- <p>Welcome, <span id="username">Mr. [username]</span></p> -->
                  <a href="fontpage.html">
                     <button class="logout-btn">Logout</button>
                  </a>
@@ -49,5 +48,17 @@
             </div>
         </div>
     </div>
+
+     <!-- Footer-Section -->
+
+
+    <!-- JavaScript-Section -->
+
+    <script>
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+    </script> 
 </body>
 </html>

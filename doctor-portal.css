@@ -97,7 +97,7 @@ html, body {
 }
 
 .button-item:hover {
-    background-color: #00b8a1;
+    background-color: #055249;
 }
 
 .button-item img {
@@ -110,4 +110,49 @@ html, body {
 .button-item h3 {
     font-size: 18px;
     color: #fff;
+}
+/* DARK & LIGHT MODE STYLES */
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+/* Sidebar */
+body.dark-mode .sidebar {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode h2 {
+    color: #f0f0f0;
+}
+
+body.dark-mode .logout-btn {
+    background-color: #444;
+    color: #fff;
+    box-shadow: none;
+}
+
+body.dark-mode .logout-btn:hover {
+    background-color: #790909;
+    box-shadow: 8px 10px 0 #fff;
+}
+
+/* Main Content */
+body.dark-mode .main-content {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .card {
+    background: #333;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .card:hover {
+    background-color: #444;
+}
+
+body.dark-mode .card p {
+    color: #e0e0e0;
 }

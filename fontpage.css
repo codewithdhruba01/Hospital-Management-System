@@ -221,3 +221,105 @@ body.dark-mode .login-btn:hover {
         height: 45px;
     }
 }
+
+
+/* ========== Footer Styling ========== */
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+    padding: 2rem 1rem;
+    font-family: inherit;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    border-bottom: 1px solid var(--footer-border);
+    padding-bottom: 1.5rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-section h3 {
+    color: var(--footer-heading);
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+.footer-section h3 span {
+    color: #7bc1b7;
+}
+
+.footer-section h4 {
+    color: var(--footer-heading);
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    color: var(--footer-text);
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.4rem;
+}
+
+.footer-section ul li a {
+    color: var(--footer-link);
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 1.5rem;
+    color: var(--footer-muted);
+}
+
+/* Light Mode Variables */
+:root {
+    --footer-bg: #f8f8f8;
+    --footer-text: #333;
+    --footer-heading: #0b8fac;
+    --footer-link: #0b8fac;
+    --footer-border: #ddd;
+    --footer-muted: #666;
+}
+
+/* Dark Mode Footer */
+body.dark-mode {
+    --footer-bg: #1e1e1e;
+    --footer-text: #e0e0e0;
+    --footer-heading: #7bc1b7;
+    --footer-link: #66ccff;
+    --footer-border: #333;
+    --footer-muted: #aaa;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+}
+

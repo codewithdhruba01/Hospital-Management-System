@@ -109,3 +109,123 @@ h2 {
 .asd{
     text-decoration: none;
 }
+
+/* DARK & LIGHT MODE STYLES */
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+/* Sidebar */
+body.dark-mode .sidebar {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode h2 {
+    color: #f0f0f0;
+}
+
+body.dark-mode .logout-btn {
+    background-color: #444;
+    color: #fff;
+    box-shadow: none;
+}
+
+body.dark-mode .logout-btn:hover {
+    background-color: #c00606;
+    box-shadow: 8px 10px 0 #fff;
+}
+
+/* Main Content */
+body.dark-mode .main-content {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .card {
+    background: #333;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .card:hover {
+    background-color: #444;
+}
+
+body.dark-mode .card p {
+    color: #e0e0e0;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: #2a2a2a; 
+    }
+
+    .admin-section {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .admin-section img {
+        width: 60px;
+        margin-bottom: 0;
+    }
+
+    .admin-section h2 {
+        font-size: 18px;
+        color: white;
+    }
+
+    .logout-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin: 0;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        background-color: #1e1e1e;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .card p {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+

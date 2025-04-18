@@ -51,5 +51,11 @@
         </div>
     </div>
     </div>
+    <script>
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+    </script>    
 </body>
 </html>
