@@ -24,10 +24,10 @@ A comprehensive web-based Hospital Management System built using PHP and MySQL. 
 ![Font Page](Screenshots/Fornt-Page.png)
 
 ### Dark Mode
-![Dark mode](Screenshots/Dark-Mode-Font-Page.png)
+![Dark mode](Screenshots/darkmode.png)
 
 ### Login Page
-![Login Page](Screenshots/Login-Page.png)
+![Login Page](Screenshots/login.png)
 
 ### Admin Portal
 ![Admin Portal](Screenshots/Admin-Page.png)
@@ -35,14 +35,17 @@ A comprehensive web-based Hospital Management System built using PHP and MySQL. 
 ### Doctor Portal
 ![Doctor Portal](Screenshots/Doctor-Page.png)
 
-<!-- ### Appointments
-![Appointments](appointments.jpg) -->
 
 <!-- ### Delete Doctor
 ![Delete Doctor](delete-doctor.jpg) -->
 
 ### Front Dask Portal
 ![Patient Manager](Screenshots/Font-Dask-Page.png)
+
+### Footer
+![Footer](Screenshots/footer.png)
+
+---
 
 ## Installation
 
