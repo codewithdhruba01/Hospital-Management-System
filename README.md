@@ -42,8 +42,6 @@ A comprehensive web-based Hospital Management System built using PHP and MySQL. 
 ### Front Dask Portal
 ![Patient Manager](Screenshots/Font-Dask-Page.png)
 
-### Footer
-![Footer](Screenshots/footer.png)
 
 ---
 
@@ -73,11 +71,7 @@ A comprehensive web-based Hospital Management System built using PHP and MySQL. 
   - Username: `doctor`
   - Password: `doctor123`
 
-### 👥 Contributors
-
-- [@codewithdhruba01](https://github.com/codewithdhruba01)
-- [@AkashAdak-coder ](https://github.com/AkashAdak-coder)  
-- [@Reyaz556](https://github.com/Reyaz556)
+---
 
 ## License
 
